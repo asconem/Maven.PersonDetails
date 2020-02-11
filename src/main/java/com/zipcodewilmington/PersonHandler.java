@@ -36,6 +36,11 @@ public class PersonHandler {
 
     public String forLoop() {
         String result = "";
+
+        for (int counter = 0; counter < personArray.length; counter++){
+            String currentPerson = personArray[counter].toString();
+            result += currentPerson;
+        }
         // identify initial value
         // identify terminal condition
         // identify increment
